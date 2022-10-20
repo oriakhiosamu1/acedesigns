@@ -1,0 +1,19 @@
+body{
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../../public/images/02bba93235d5be2882586353a7bfc079.jpg");
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+   
+}
+
+@media only screen and (max-width: 600px) {
+    body{
+        background: none;
+        padding: 0;
+        padding-bottom: 0;
+    }
+
+    main{
+        margin-bottom: 20px;
+    }
+
+}

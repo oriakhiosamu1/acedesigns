@@ -1,0 +1,68 @@
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: auto;
+}
+
+.skills{
+    width: 75%;
+    height: 100%;
+    margin: 20px auto;
+    background-color: #395b64;
+    padding: 40px 50px 40px 50px;
+    border-radius: 20px;
+    /* box-shadow: 0px 4px 8px 0px gray; */
+}  
+
+.skills-heading{
+    text-align: center;
+}
+
+.skills-heading h3{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2rem;
+}
+
+.icon{
+    color: white;
+    width: 100%;
+}
+
+h5{
+    text-align: center;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1rem;
+}
+
+
+
+
+/* style sheet for phone*/
+@media only screen and (max-width: 600px) {
+
+    body{
+        padding: 0;
+    }
+
+    .skills{
+        width: 100%;
+        background-color: #395b64;
+        padding: 40px 50px 40px 50px;
+        /* border-radius: 20px; */
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        box-shadow: 0px 4px 8px 0px gray;
+        margin: 0;
+        /* margin-top: 20px; */
+    }
+
+    .col-sm-6{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        row-gap: 20px;
+    }
+
+}

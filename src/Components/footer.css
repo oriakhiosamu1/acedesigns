@@ -1,0 +1,308 @@
+
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: auto;
+}
+
+.footer{
+    width: 75%;
+    margin: 20px auto;
+    background-color: #395b64;
+    padding: 40px 50px 40px 50px;
+    border-radius: 20px;
+    /* box-shadow: 0px 4px 8px 0px gray; */
+}
+
+.footer-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.contact-info h4{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2rem;
+}
+
+.contact-info p{
+    color: white;
+}
+
+.user-id{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    gap: 10px;
+    padding-left: 2rem;
+    border: 1px solid white;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    width: 100%;
+}
+
+.user-info p{
+    color: white;
+    width: 100%;
+}
+
+.icon, .icon-new{
+    color: white;
+}
+
+.icon-new{
+    margin-bottom: 15px;
+    margin-top: 12px;
+    display: inline-block;
+}
+
+form{
+    background-color: white;
+    padding: 40px 30px 40px 30px;
+    border-radius: 10px;
+    width: 100%;
+}
+
+input{
+    height: 50px;
+    /* width: 100%; */
+    width: 16rem;
+    margin-bottom: 10px;
+    padding-left: 15px;
+    border-radius: 10px;
+    border: 1px solid #395b64;
+}
+
+input::placeholder, textarea::placeholder{
+    color: #395b64;
+}
+
+textarea{
+    height: 150px;
+    width: 100%;
+    margin-bottom: 10px;
+    padding-left: 15px;
+    border-radius: 10px;
+    border: 1px solid #395b64;
+}
+
+.submit{
+    background-color: #395b64;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    border: 0 none;
+}
+
+.contact{
+    margin-top: -50px;
+}
+
+.user-socials{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border: 1px solid white;
+    margin-top: 20px;
+}
+
+.end-message{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.salute-msg{
+    color: white;
+}
+
+.contact-info{
+    padding-top: 20px;
+}
+
+.link{
+    text-decoration: none;
+    color: white;
+}
+
+.link:hover{
+    text-decoration: underline;
+    color: white;
+}
+
+.mobile{
+    display: none;
+}
+
+
+
+/* style sheet for phone*/
+@media only screen and (max-width: 600px) {
+
+    body{
+        padding: 0;
+    }
+
+    .footer{
+        width: 100%;
+        background-color: #395b64;
+        padding: 40px 50px 40px 50px;
+        /* border-radius: 20px; */
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        box-shadow: 0px 4px 8px 0px gray;
+        margin: 0;
+    }
+
+    form{
+        background-color: white;
+        padding: 40px 30px 40px 30px;
+        border-radius: 10px;
+        width: 100%;
+        margin-top: 30px;
+    }
+    
+    input{
+        height: 50px;
+        /* width: 100%; */
+        margin-bottom: 10px;
+        padding-left: 15px;
+        border-radius: 10px;
+        border: 1px solid #395b64;
+    }
+
+    textarea{
+        height: 150px;
+        /* width: 300px; */
+        margin-bottom: 10px;
+        padding-left: 15px;
+        border-radius: 10px;
+        border: 1px solid #395b64;
+    }
+
+    .contact-info h4{
+        color: white;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 2rem;
+        margin-top: 30px;
+    }
+    
+    .submit{
+        background-color: #395b64;
+        color: white;
+        font-weight: bold;
+        width: 100%;
+        height: 50px;
+        border-radius: 10px;
+        border: 0 none;
+    }
+
+    .user-socials{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        border: 1px solid white;
+        margin-top: 20px;
+    }
+
+    .contact-info-div{
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .contact-info{
+        padding-top: 20px;
+    }
+
+    .user-info p{
+        font-size: 0.7rem;
+    }
+
+    .mobile{
+        display: block;
+    }
+    
+
+}
+
+
+/* style sheet for tablet*/
+@media only screen and (min-width: 660px) {
+
+    .footer{
+        width: 75%;
+        background-color: #395b64;
+        padding: 40px 50px 40px 50px;
+        border-radius: 20px;
+        /* box-shadow: 0px 4px 8px 0px gray; */
+    }
+
+
+    .contact-info h4{
+        color: white;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 2rem;
+        margin-top: 30px;
+    }
+
+    form{
+        background-color: white;
+        padding: 40px 30px 40px 30px;
+        border-radius: 10px;
+        width: 100%;
+        margin-top: 30px;
+    }
+    
+    input{
+        height: 50px;
+        /* width: 100%; */
+        margin-bottom: 10px;
+        padding-left: 15px;
+        border-radius: 10px;
+        border: 1px solid #395b64;
+    }
+
+    textarea{
+        height: 150px;
+        /* width: 300px; */
+        margin-bottom: 10px;
+        padding-left: 15px;
+        border-radius: 10px;
+        border: 1px solid #395b64;
+    }
+
+    .submit{
+        background-color: #395b64;
+        color: white;
+        font-weight: bold;
+        width: 100%;
+        height: 50px;
+        border-radius: 10px;
+        border: 0 none;
+    }
+
+    .contact-info{
+        padding-top: 20px;
+    }
+
+    .mobile{
+        display: block;
+    }
+
+
+
+}
+
+
+/*tablet landscape*/
+@media only screen and (min-width : 768px){
+
+}
